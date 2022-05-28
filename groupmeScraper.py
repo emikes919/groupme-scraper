@@ -3,8 +3,8 @@ import requests, xlsxwriter, pprint, datetime
 pd.options.mode.chained_assignment = None  # default='warn'
 
 # GroupMe API auth data
-TOKEN = 'GHP3STkQhLJITckZ281ESBS4NfRYdpfKZ4SpAf39'
-GROUPID = '16924082'
+TOKEN = ''
+GROUPID = ''
 BASEURL = 'https://api.groupme.com/v3'
 groupEndPoint = '/groups/%s?' % (GROUPID)
 messagesEndPoint = '/groups/%s/messages?' % (GROUPID)
